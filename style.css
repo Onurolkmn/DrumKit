@@ -1,0 +1,62 @@
+html{
+    font-size: 10px;
+    
+}
+body {
+    background-color: #EEECDF;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.keys {
+    display: flex;
+    flex: 1;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+
+
+.key {
+    border: .4rem #1B309B;
+    border-radius: .5rem;
+    margin: 1rem;
+    font-size: 1.5rem;
+    padding: 1rem;
+    transition: all .08s;
+    width: 10rem;
+    text-align: center;
+    color: #FFAA00;
+    background: #FC0049;
+
+
+}
+
+.playing {
+    transform: scale(1.1);
+    border-color: #1B309B;
+    box-shadow: 0 0 1rem  #1B309B;
+}
+
+kbd {
+    display: block;
+    font-size: 4rem;
+    font-family: 'Inter', sans-serif;
+}
+
+
+
+.sound {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    color: #EEECDF;
+}
+
+
+
+
